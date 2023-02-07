@@ -11,27 +11,26 @@ function ColorList() {
     "darkslategray",
     "hotpink",
   ];
-  const colorElements= colors.map((color)=> {
-    return <ColorItem key={color} color={color} />;
-  });
+  // const colorElements= colors.map((color)=> {
+  //   return <ColorItem key={color} color={color} />;
+  // });
 
-  }
+  
   const colorElements =colors.map((color)=>{
     return <li style={{color:color }}>
       {color}
       </li>
   });
-  return (
+    return (
     <div> 
       <h1>Top 5 CSS Colors</h1>
       <ol>
         {colorElements}
       </ol>
     </div>
-  );
-  }
+    )};
 
-  return (
+    return (
     <div>
       <h1>Top 5 CSS Colors</h1>
       <ol>
@@ -42,7 +41,6 @@ function ColorList() {
         <li style={{ color: colors[4] }}>{colors[4]}</li>
       </ol>
     </div>
-  );
-}
-
+  )};
+    
 export default ColorList;
