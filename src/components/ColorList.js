@@ -32,7 +32,7 @@ function ColorList() {
   //       <li style={{ color: colors[4] }}>{colors[4]}</li>
   //     </ol>
   //   </div>
-  );
-}
+//   );
+// }
 
 export default ColorList;
